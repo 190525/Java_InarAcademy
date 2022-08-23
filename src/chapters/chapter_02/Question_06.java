@@ -1,5 +1,6 @@
 package chapters.chapter_02;
 //MultiplicationDigitsİnİntegers
+
 import java.util.*;
 
 public class Question_06 {
