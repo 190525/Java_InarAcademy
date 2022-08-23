@@ -1,5 +1,6 @@
 package chapters.chapter_02;
-//ConvertSqquareMeterIntoPing
+//ConvertSquareMeterIntoPing
+
 import java.util.Scanner;
 
 public class Question_04 {
