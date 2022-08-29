@@ -6,7 +6,7 @@ import java.util.*;
 public class Exercise_03 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		System.out.println("Enter a, b ,c ,d ,e ,f : ");
+		System.out.println("Enter a, b ,c ,d ,e ,f : (ax + by = e , cx + dy = f)");
 
 		double a = input.nextDouble();
 		double b = input.nextDouble();
