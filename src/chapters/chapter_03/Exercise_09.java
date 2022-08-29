@@ -50,8 +50,6 @@ public class Exercise_09 {
 						+ d7 + "" + d8 + "" + d9 + "" + d10);
 
 			}
-		} else {
-			System.out.println("You entered wrong number");
 		}
 	}
 
