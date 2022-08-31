@@ -11,7 +11,7 @@ public class Exercise_27 {
 		double y = input.nextDouble();
 
 		// define the borders of the right triangle
-		if (x < 0 || x < 200 || y < 0 || y > 100) {
+		if if (x>=0 &&y>=0 && (x+2*y<=200)) { {
 			System.out.println("Point (" + x + "," + y + ") is out of the right triangle");
 		} else {
 			System.out.println("Point (" + x + "," + y + ") is in the right triangle");
