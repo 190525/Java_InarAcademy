@@ -1,4 +1,4 @@
-package unite1;
+package chapter_01;
 // Print table
 public class Exercise_04 {
 	public static void main(String[] args) {
