@@ -1,4 +1,4 @@
-package unite1;
+package chapter_01;
 // Display a pattern
 public class Exercise_03 {
 	public static void main(String[] args) {	
