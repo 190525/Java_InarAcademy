@@ -1,4 +1,4 @@
-package unite1;
+package chapter_01;
 
 public class Exercise_01 {
 	public static void main(String[] args) {
