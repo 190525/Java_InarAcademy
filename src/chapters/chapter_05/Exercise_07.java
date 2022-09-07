@@ -1,33 +1,24 @@
 package chapters.chapter_05;
-// Palindrome
-
-import java.util.*;
-
-public class E_07 {
+// Future tuition
+public class Exercise_07 {
 	public static void main(String[] args) {
-		Scanner input =new Scanner(System.in);
-		System.out.println("Enter the string you want to check for palindrome");
-		String palindrome=input.nextLine();
-		int low=0;
-		int high=palindrome.length()-1;
-		boolean isPalindrome=true;
-		while(low<high) {
-			if(palindrome.charAt(low)!=palindrome.charAt(high)) {
-				isPalindrome=false;
-				break;
+		int tuitionPerYear = 10000;
+		double totalCost10 = 0;
+		double totalCost14 = 0;
+
+		for (int year = 1; year <= 14; year++) {
+
+			tuitionPerYear += tuitionPerYear * .05;
+
+			if (year <= 10) {
+				totalCost10 = totalCost10 + tuitionPerYear;
 			}
-			low++;
-			high--;
+			if (year > 10) {
+				totalCost14 = totalCost14 + tuitionPerYear;
+			}
 		}
-		if(isPalindrome) {
-			System.out.println(palindrome+" is palindrome");
-		} else
-			System.out.println(palindrome+" is not palindrome");
-			
-		
-		
+		System.out.println("The cost of tuition in 10 years is $" + totalCost10);
+		System.out.println("The total cost of 4 years tuition after 10 years is $" + totalCost14);
 
 	}
-
 }
-
