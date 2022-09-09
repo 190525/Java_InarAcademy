@@ -1,6 +1,7 @@
 package chapters.chapter_05;
 
 // Sum a series 
+
 public class Exercise_24 {
 
 	public static void main(String[] args) {
