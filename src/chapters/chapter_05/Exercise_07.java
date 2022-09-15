@@ -3,10 +3,10 @@ package chapters.chapter_05;
 public class Exercise_07 {
 	public static void main(String[] args) {
 		int tuitionPerYear = 10000;
-		double totalCost10 = 0;
+		double totalCost10 =10000;//first year tuition
 		double totalCost14 = 0;
 
-		for (int year = 1; year <= 14; year++) {
+		for (int year = 2; year <= 14; year++) {
 
 			tuitionPerYear += tuitionPerYear * .05;
 
