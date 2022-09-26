@@ -9,7 +9,8 @@ public class Exeercise_17 {
         printMatrix(dimension);
 
     }
-    public static void printMatrix(int n){ // Print components of matrix
+    public static void printMatrix(int n){ 
+        // Print components of matrix
         for(int i=0;i<n;i++){
             for(int j=0;j<n;j++){
                 System.out.printf("%2d",(int)(Math.random()*2));
