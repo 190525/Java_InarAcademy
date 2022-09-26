@@ -17,8 +17,6 @@ public class Exercise_18 {
             System.out.println("A password must contain at least two digits.");
         }
 
-
-
     }
     public static boolean lengthOfPassword(String password){
         if(password.length()<8){
