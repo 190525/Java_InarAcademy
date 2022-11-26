@@ -30,6 +30,13 @@ public class MyStringBuilder1 {
             lowerCaseLetter+=s.charAt(i);
         }
         return new MyStringBuilder1(lowerCaseLetter);
+    } 
+    public MyStringBuilder1 substring(int begin, int end) {
+        String substring = "";
+        for (int i = begin; i < end; i ++) {
+            substring += s.charAt(i);
+        }
+        return new MyStringBuilder1(substring);
     }
     public String toString(){
         return s;
